@@ -16,5 +16,6 @@
 
     <br>Haga clic para <a href="pages/createUser.jsp">crear un usuario</a>.
     <br>Haga click para <a href="pages/loginpage.jsp">iniciar sesión</a>.
+    <br>Haga click para <a href="pages/config.jsp">configurar</a>.
   </body>
 </html>

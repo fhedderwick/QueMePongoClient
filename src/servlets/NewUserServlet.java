@@ -25,7 +25,7 @@ public class NewUserServlet extends HttpServlet {
         body.addProperty("username",username);
         body.addProperty("googleId",googleId);
 
-        final String reply = ConnectionManager.getConnectionManager().sendPost(apiMethod,body);
+        final String reply = ConnectionManager.sendPost(apiMethod,body);
         final PrintWriter writer = response.getWriter();
 
         String htmlResponse = "<html>";

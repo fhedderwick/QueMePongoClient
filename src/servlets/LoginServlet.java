@@ -9,32 +9,20 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/pages/loginServlet")
+@WebServlet("/pages/login")
 public class LoginServlet extends HttpServlet {
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
+    protected void doPost(final HttpServletRequest request, final HttpServletResponse response) throws IOException {
+        /*
+            final PrintWriter writer = response.getWriter();
 
-        // read form fields
-        String username = request.getParameter("username");
-        String password = request.getParameter("password");
+            String htmlResponse = "<html>";
+            htmlResponse += "<h2>Registrado \"" + username + "\"<br/>";
+            htmlResponse += "El google ID es: \"" + googleId + "\"</h2>";
+            htmlResponse += "</html>";
 
-        System.out.println("username: " + username);
-        System.out.println("password: " + password);
-
-        // do some processing here...
-
-        // get response writer
-        PrintWriter writer = response.getWriter();
-
-        // build HTML code
-        String htmlRespone = "<html>";
-        htmlRespone += "<h2>Your username is: " + username + "<br/>";
-        htmlRespone += "Your password is: " + password + "</h2>";
-        htmlRespone += "</html>";
-
-        // return response
-        writer.println(htmlRespone);
-
+            writer.println(htmlResponse);
+        */
     }
 
 }
