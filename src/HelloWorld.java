@@ -1,4 +1,4 @@
-import javax.ws.rs.GET;
+/*import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 
@@ -13,4 +13,4 @@ public class HelloWorld {
         // Return some cliched textual content
         return "Hello World";
     }
-}
+}*/

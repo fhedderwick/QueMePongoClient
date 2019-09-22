@@ -6,15 +6,18 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
   <head>
     <title>Cliente Web de "Que Me Pongo"</title>
   </head>
   <body>
-    Bienvenido a la aplicación
+    Login
     <br>
-
-    <br>Haga clic para <a href="pages/createUser.jsp">crear un usuario</a>.
-    <br>Haga click para <a href="pages/loginpage.jsp">iniciar sesión</a>.
-  </body>
+    <form name="loginForm" method="post" action="loginServlet">
+      Username: <input type="text" name="username"/> <br/>
+      Password: <input type="password" name="password"/> <br/>
+      <input type="submit" value="Login" />
+    </form>
+    </body>
 </html>
